@@ -7,8 +7,8 @@ import cancel from '../assets/cancel.svg'
 function Navbar() {
     const [open, setOpen] = useState(false)
   return (
-    <div>
-        <div className=' sticky top-0 bg-white' >
+    <div className=' sticky top-0 bg-white'  >
+        <div  >
             <div className='flex justify-between items-center text-black w-full h-[10dvh] border-b-[1px] border-black px-[30px] md:px-[50px]'>
                 <img src={logo} alt="" />
                 <div className='hidden md:flex justify-between items-center w-[35%]'>
